@@ -1,0 +1,23 @@
+.vscode/
+# MacOS
+.DS_Store
+
+# Node
+node_modules
+
+# Next
+.next
+
+# Environment config
+.env*
+!.env.sample
+
+# intellij folder
+.idea
+
+public/url-list.txt
+public/sitemap.xml
+
+# direnv
+.nvmrc
+.envrc
