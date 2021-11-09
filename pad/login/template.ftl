@@ -212,21 +212,21 @@
               <li class="fr-footer__bottom-item">
                 
                   
-                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/apropos/" class="fr-footer__bottom-link">Mentions légales</a>
+                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/s/apropos/" class="fr-footer__bottom-link">Mentions légales</a>
                 
               </li>
                     
               <li class="fr-footer__bottom-item">
                 
                   
-                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/suivi/" class="fr-footer__bottom-link">Données personnelles et cookies</a>
+                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/s/suivi/" class="fr-footer__bottom-link">Données personnelles et cookies</a>
                 
               </li>
                     
               <li class="fr-footer__bottom-item">
                 
                   
-                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/accessibilite/" class="fr-footer__bottom-link">Accessibilité : non conforme</a>
+                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/s/accessibilite/" class="fr-footer__bottom-link">Accessibilité : non conforme</a>
                 
               </li>
             
