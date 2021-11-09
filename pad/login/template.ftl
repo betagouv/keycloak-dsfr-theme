@@ -57,8 +57,9 @@
                 </div>
                 <div class="fr-header__service">
                     <a href="/" title="Accueil - Pad numerique">
-                    <p class="fr-header__service-title">Pad numerique de l'état</p>
+                    <p class="fr-header__service-title">Notepad de l'État</p>
                     </a>
+                    <p class="fr-header__service-tagline">Plateforme de notes collaboratives</p>
                 </div>
                 </div>
             </div>
