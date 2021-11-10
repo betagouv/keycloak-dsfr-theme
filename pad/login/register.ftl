@@ -6,38 +6,6 @@
         <form id="kc-register-form" action="${url.registrationAction}" method="post">
             <div class="rf-input-group">
 
-                <label for="firstName" class="rf-label">${msg("firstName")}</label>
-                <input type="text" id="firstName" class="rf-input" name="firstName"
-                       value="${(register.formData.firstName!'')}"
-                       aria-invalid="<#if messagesPerField.existsError('firstName')>true</#if>"
-                />
-
-                <#if messagesPerField.existsError('firstName')>
-                    <span id="input-error-firstname" class="${properties.kcInputErrorMessageClass!}" aria-live="polite">
-                        ${kcSanitize(messagesPerField.get('firstName'))?no_esc}
-                    </span>
-                </#if>
-
-            </div>
-
-            <div class="rf-input-group">
-
-                <label for="lastName" class="rf-label">${msg("lastName")}</label>
-                <input type="text" id="lastName" class="rf-input" name="lastName"
-                       value="${(register.formData.lastName!'')}"
-                       aria-invalid="<#if messagesPerField.existsError('lastName')>true</#if>"
-                />
-
-                <#if messagesPerField.existsError('lastName')>
-                    <span id="input-error-lastname" class="${properties.kcInputErrorMessageClass!}" aria-live="polite">
-                        ${kcSanitize(messagesPerField.get('lastName'))?no_esc}
-                    </span>
-                </#if>
-
-            </div>
-
-            <div class="rf-input-group">
-
                 <label for="email" class="rf-label">${msg("email")}</label>
                 <input type="text" id="email" class="rf-input" name="email"
                        value="${(register.formData.email!'')}" autocomplete="email"
