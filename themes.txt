@@ -1,0 +1,1 @@
+alfresco https://github.com/Alfresco/alfresco-keycloak-theme
