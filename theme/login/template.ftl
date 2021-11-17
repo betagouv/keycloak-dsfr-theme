@@ -57,9 +57,9 @@
                 </div>
                 <div class="fr-header__service">
                     <a href="https://pad.numerique.gouv.fr" title="Accueil - Pad numerique">
-                    <p class="fr-header__service-title">Notepad de l'État</p>
+                        <p class="fr-header__service-title">${properties.kcServiceTitle!}</p>
                     </a>
-                    <p class="fr-header__service-tagline">Plateforme de notes collaboratives</p>
+                    <p class="fr-header__service-tagline">${properties.kcServiceTagline!}</p>
                 </div>
                 </div>
             </div>
@@ -209,21 +209,21 @@
               <li class="fr-footer__bottom-item">
                 
                   
-                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/s/apropos/" class="fr-footer__bottom-link">Mentions légales</a>
+                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/apropos/" class="fr-footer__bottom-link">Mentions légales</a>
                 
               </li>
                     
               <li class="fr-footer__bottom-item">
                 
                   
-                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/s/suivi/" class="fr-footer__bottom-link">Données personnelles et cookies</a>
+                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/suivi/" class="fr-footer__bottom-link">Données personnelles et cookies</a>
                 
               </li>
                     
               <li class="fr-footer__bottom-item">
                 
                   
-                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/s/accessibilite/" class="fr-footer__bottom-link">Accessibilité : non conforme</a>
+                  <a href="${properties.kcExternalFooterLinksBaseUrl!}/accessibilite/" class="fr-footer__bottom-link">Accessibilité : non conforme</a>
                 
               </li>
             
