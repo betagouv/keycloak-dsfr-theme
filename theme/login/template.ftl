@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="fr-header__service">
-                    <a href="https://pad.numerique.gouv.fr" title="Accueil - Pad numerique">
+                    <a href="${properties.kcServiceBaseLink!}" title="Accueil - ${properties.kcServiceTitle!}">
                         <p class="fr-header__service-title">${properties.kcServiceTitle!}</p>
                     </a>
                     <p class="fr-header__service-tagline">${properties.kcServiceTagline!}</p>
